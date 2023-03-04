@@ -1,0 +1,356 @@
+/*cabecera*/
+header *{
+    float: left;
+}
+   
+.logo-header{
+    width: 60px;
+    border-radius: 1em;
+    position: relative;
+    left: 20%;
+    top: 10px;
+}
+    
+.cabecera,.cuerpo,.footer {
+    border:solid black;
+    overflow:hidden;
+}
+.cabecera{
+    position:sticky;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.menu{
+    position: absolute;
+    top:20%;
+    left: 30%;
+    width: 360px;
+    height:40px;
+}
+.menu ul{
+    width: 100%;
+    font-size:20px;
+    margin-left: 40px;
+}
+.menu li{
+    float: left;
+	width:auto;
+    margin: 0;
+	padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    border-left:solid ;
+}
+.menu a:hover{
+    text-decoration: underline #f01818  ;
+    transition: 0.2s;
+    color: #f01818;
+}
+.main-nav{
+    position: relative;
+    padding: 0%;
+    left: 70%; 
+}
+.cabecera ul{
+    list-style-type: none;
+}
+.cabecera .iniciar{
+    background-color:#f01818 ;
+    border: solid white;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    align-items:center ;
+    border-radius: 2em;
+}
+.cabecera .iniciar:hover{
+    background-color:white ;
+    border-color: #f01818 ;
+    transition: 0.5s;
+}
+.cabecera .registrar{
+    border: solid #f01818;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    align-items:center ;
+    border-radius: 2em;
+  
+}
+.cabecera .registrar:hover{
+    background-color:#f01818 ;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+}
+.cabecera a{
+    text-decoration: none;
+    color:black;
+}
+ 
+/* contenido*/
+
+.cuerpo{
+    padding: 20px;
+}
+.cuerpo *{
+    transition: 0.5s;
+    padding: 5px;
+}
+.principal{    
+    position: relative;
+    top: 30px;
+    border-top: #f01818 solid;
+    border-right:#f01818 solid;
+    border-width: 5px;
+    border-top-right-radius: 2em;
+    overflow: hidden;
+    width: min-content;
+    height: 550px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.cuerpo p{
+    color: #f01818;
+    font-family: Arial;
+    font-size: 23px;
+}
+.principal img{
+    position: relative;
+    margin: 5px;
+    width: 600px;
+    height: 500px;
+}
+.principal:hover h1{
+    text-decoration: underline solid #f01818;
+}
+.principal:hover{
+    border-right: solid black;
+    border-top:  solid black;
+    border-width: 5px;
+}
+.principal:hover img{
+    transform: scale(110%, 110%);
+}
+.secundarias div{
+    position: relative;
+    margin: 5%;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    box-shadow: 5px 5px 5px -5px #000000;
+}
+.sec1 img , .sec2 img{
+    width: 250px;
+    height: max-content;
+}
+
+.secundarias div:hover{
+    transform: scale(120%,120%);
+    box-shadow: none;
+}
+
+.secundarias div:hover h3{
+    text-decoration: underline #f01818;
+}
+.sec1:hover  img, .sec2:hover  img{
+    transform: scale(120%, 120%);
+}
+
+button{
+    font-family: Arial;
+    font-size: large;
+    color: #fff;
+    position: relative;
+    left: 22%;
+    width: 200px;
+    height: 80px;
+    border-radius: 3em;
+    background-color: #f01818;
+}
+button:hover{
+    width: 220px;
+    height: 80px;
+    background-color: #fff;
+    color: #f01818;
+    background-image: url(/Imagenes/Iconos/flecha-hacia-abajo-para-navegar.png);
+    background-repeat: no-repeat;
+    background-position-y: 52%;
+    background-position-x: 14%;
+}
+/* footer*/  
+.categorias div{
+    display: grid;
+    place-items: center;
+    width: 140px;
+    height: 120px;    
+}
+.categorias .foto:hover{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: solid #CDF6F4;
+    border-radius:2em ;
+}
+    
+.categorias img{
+    display: flex;
+    padding-top: 5%;
+    width: 60px;
+    height: 60px;
+}
+    
+footer
+{
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+    width: 100%;
+    height: 10%;
+    padding: 0; 
+}
+footer hr
+{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+footer hr.small
+{
+    margin:20px 0
+}
+footer h6
+{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+footer a
+{
+    color:#737373;
+}
+
+.flinks
+{
+    padding-left:0;
+    list-style:none
+}
+
+.flinks a
+{
+    color:#ccc6c6;
+    text-decoration: none;
+}
+footer a:active,.footer a:focus,footer a:hover
+{
+    color:#f01818;
+    transition: 0.5s;
+}
+.flinks.inline li
+{
+    display:inline-block
+}
+footer .iconos-redes
+{
+    text-align:right
+}
+footer .iconos-redes a
+{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+}
+
+/* iconos y hovers sacados de internet */
+.iconos-redes
+{
+    list-style:none
+}
+.iconos-redes li
+{
+    display:inline-block;
+    margin-bottom:4px
+}
+.iconos-redes li.title
+{
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+}
+.iconos-redes a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.iconos-redes a:active,.iconos-redes a:focus,.iconos-redes a:hover
+{
+    color:#fff;
+    background-color:#000000
+}
+.iconos-redes.size-sm a
+{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px;
+}
+.iconos-redes a{
+    background-position-y: 50%;
+    background-position-x: 50%;
+    position: relative;
+}
+.iconos-redes .a{
+    background-image: url(/Imagenes/redes-sociales/logotipo-de-twitter.png);
+    background-repeat: no-repeat;
+}
+.iconos-redes .b{
+    background-image: url(/Imagenes/redes-sociales/instagram.png);
+    background-repeat: no-repeat;
+
+}
+.iconos-redes .c{
+    background-image: url(/Imagenes/redes-sociales/facebook.png);
+    background-repeat: no-repeat;
+
+}
+.iconos-redes .d{
+    background-image: url(/Imagenes/redes-sociales/youtube.png);
+    background-repeat: no-repeat;
+
+}
+
+.iconos-redes a:hover
+{
+    background-color:rgb(255, 0, 0)
+}
+@media (max-width:767px)
+{
+  .iconos-redes li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
