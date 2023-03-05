@@ -95,26 +95,58 @@ apartado de la tarjeta
 .cuerpo{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .carta {
+  background:linear-gradient(black,rgb(31, 30, 30) ) ;
   border: solid black;
   border-radius: 1em;
   width: 240px;
   height: 230px;
-  margin: 5px;
+  margin:0;
   padding: 0;
   overflow: hidden;
   align-content: center;
+  z-index: 0;
+  margin: 10px;
+  transition: 1s;
+}
+.carta {
+  display: grid;
+  padding-right: 10px;
+  justify-items: center;
 }
 .carta h1{
   visibility: hidden;
 }
 .carta img{
   width: 280px;
-  
+  filter: brightness(120%) opacity(80%);
 }
-  /* footer*/  
+.carta:hover body{
+  overflow: hidden;
+}
+.carta:hover{
+  background:linear-gradient(black,rgb(31, 30, 30) ) ;
+  border: solid black;
+  border-radius: 1em;
+  width: 340px;
+  height: 230px;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  align-content: center;
+  z-index:2;
+}
+.carta:hover h1{
+  color: white;
+  visibility: visible;
+}
+
+
+
+/* footer*/  
 .categorias div{
   display: grid;
   place-items: center;
