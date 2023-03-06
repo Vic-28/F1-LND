@@ -176,7 +176,7 @@ button:hover{
     height: 80px;
     background-color: #fff;
     color: #f01818;
-    background-image: url(/Imagenes/Iconos/flecha-hacia-abajo-para-navegar.png);
+    background-image: url(../Imagenes/Iconos/flecha-hacia-abajo-para-navegar.png);
     background-repeat: no-repeat;
     background-position-y: 52%;
     background-position-x: 14%;
@@ -322,21 +322,21 @@ footer .iconos-redes a
     position: relative;
 }
 .iconos-redes .a{
-    background-image: url(/Imagenes/redes-sociales/logotipo-de-twitter.png);
+    background-image: url(../Imagenes/redes-sociales/logotipo-de-twitter.png);
     background-repeat: no-repeat;
 }
 .iconos-redes .b{
-    background-image: url(/Imagenes/redes-sociales/instagram.png);
+    background-image: url(../Imagenes/redes-sociales/instagram.png);
     background-repeat: no-repeat;
 
 }
 .iconos-redes .c{
-    background-image: url(/Imagenes/redes-sociales/facebook.png);
+    background-image: url(../Imagenes/redes-sociales/facebook.png);
     background-repeat: no-repeat;
 
 }
 .iconos-redes .d{
-    background-image: url(/Imagenes/redes-sociales/youtube.png);
+    background-image: url(../Imagenes/redes-sociales/youtube.png);
     background-repeat: no-repeat;
 
 }

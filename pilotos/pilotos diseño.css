@@ -97,54 +97,101 @@ apartado de la tarjeta
   flex-wrap: wrap;
   justify-content: center;
 }
+#Ver{
+  background-image: url(../Imagenes/Escudos/RedBull.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transition: 2s;
+}
+#Ver:hover{
+  background-position-x: center;
+}
+
+#Lew{
+  background-image: url(../Imagenes/Escudos/Mercedes.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transition: 2s;
+}
+#Ver:hover{
+  background-position-x: center;
+}
+
+#Alo{
+  background-image: url(../Imagenes/Escudos/Aston.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transition: 2s;
+}
+#Alo:hover{
+  background-position-x: center;
+}
+
+#Lec{
+  background-image: url(../Imagenes/Escudos/Ferrari.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transition: 2s;
+}
+#Lec:hover{
+  background-position-x: center;
+}
+#Bot{
+  background-image: url(../Imagenes/Escudos/Alfa.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transition: 2s;
+}
+#Bot:hover{
+  background-position-x: center;
+}
+
+
 
 .carta {
-  background:linear-gradient(black,rgb(31, 30, 30) ) ;
   border: solid black;
   border-radius: 1em;
-  width: 240px;
-  height: 230px;
+  width: 235px;
+  height: 210px;
   margin:0;
   padding: 0;
   overflow: hidden;
   align-content: center;
-  z-index: 0;
   margin: 10px;
   transition: 1s;
+  text-align: center;
+  align-items: center;
 }
-.carta {
-  display: grid;
-  padding-right: 10px;
-  justify-items: center;
-}
+
 .carta h1{
   visibility: hidden;
+  color: #000000;
 }
-.carta img{
+.carta .piloto{
   width: 280px;
-  filter: brightness(120%) opacity(80%);
+  height: 180px;
+  filter: brightness(0%) opacity(30%);
+  
 }
-.carta:hover body{
-  overflow: hidden;
+.carta:hover .piloto{
+  filter: none;
+  transition: 2s;
 }
 .carta:hover{
-  background:linear-gradient(black,rgb(31, 30, 30) ) ;
-  border: solid black;
-  border-radius: 1em;
   width: 340px;
-  height: 230px;
-  margin:0;
-  padding: 0;
-  overflow: hidden;
-  align-content: center;
-  z-index:2;
+  height: 300px;
+  box-shadow: 5px 5px 5px -5px #000000;
 }
+
 .carta:hover h1{
-  color: white;
+  color: black;
   visibility: visible;
 }
-
-
 
 /* footer*/  
 .categorias div{
@@ -167,7 +214,7 @@ apartado de la tarjeta
   width: 60px;
   height: 60px;
 }
-  
+
 footer
 {
   background-color:#26272b;
@@ -287,21 +334,21 @@ footer .iconos-redes a
   position: relative;
 }
 .iconos-redes .a{
-  background-image: url(/Imagenes/redes-sociales/logotipo-de-twitter.png);
+  background-image: url(../Imagenes/redes-sociales/logotipo-de-twitter.png);
   background-repeat: no-repeat;
 }
 .iconos-redes .b{
-  background-image: url(/Imagenes/redes-sociales/instagram.png);
+  background-image: url(../Imagenes/redes-sociales/instagram.png);
   background-repeat: no-repeat;
 
 }
 .iconos-redes .c{
-  background-image: url(/Imagenes/redes-sociales/facebook.png);
+  background-image: url(../Imagenes/redes-sociales/facebook.png);
   background-repeat: no-repeat;
 
 }
 .iconos-redes .d{
-  background-image: url(/Imagenes/redes-sociales/youtube.png);
+  background-image: url(../Imagenes/redes-sociales/youtube.png);
   background-repeat: no-repeat;
 
 }
