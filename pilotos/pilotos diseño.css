@@ -102,7 +102,7 @@ apartado de la tarjeta
   background-size: 200px;
   background-repeat: no-repeat;
   background-position-x: center;
-  transition: 2s;
+  transition: 1s;
 }
 #Ver:hover{
   background-position-x: center;
@@ -113,7 +113,7 @@ apartado de la tarjeta
   background-size: 400px;
   background-repeat: no-repeat;
   background-position-x: center;
-  transition: 2s;
+  transition: 1s;
 }
 #Ver:hover{
   background-position-x: center;
@@ -124,7 +124,7 @@ apartado de la tarjeta
   background-size: 250px;
   background-repeat: no-repeat;
   background-position-x: center;
-  transition: 2s;
+  transition: 1s;
 }
 #Alo:hover{
   background-position-x: center;
@@ -135,7 +135,7 @@ apartado de la tarjeta
   background-size: 200px;
   background-repeat: no-repeat;
   background-position-x: center;
-  transition: 2s;
+  transition: 1s;
 }
 #Lec:hover{
   background-position-x: center;
@@ -145,7 +145,7 @@ apartado de la tarjeta
   background-size: 200px;
   background-repeat: no-repeat;
   background-position-x: center;
-  transition: 2s;
+  transition: 1s;
 }
 #Bot:hover{
   background-position-x: center;
@@ -175,12 +175,12 @@ apartado de la tarjeta
 .carta .piloto{
   width: 280px;
   height: 180px;
-  filter: brightness(0%) opacity(30%);
+  filter: brightness(0%) opacity(20%);
   
 }
 .carta:hover .piloto{
   filter: none;
-  transition: 2s;
+  transition: 1s;
 }
 .carta:hover{
   width: 340px;

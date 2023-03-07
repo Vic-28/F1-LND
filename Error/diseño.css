@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    align-items: center;
+    
+}
+
+h1{
+    position: relative;
+    left: 50%;
+    font-family: Arial;
+}
+
+.engranaje{
+    position: absolute;
+    left: 30%;
+    animation-duration: 30s;
+    animation-name: cargando;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+
+a{
+    position: absolute;
+    left: 42%;
+    top: 90%;
+    width: 180px;
+    height: 20px;
+    background-color: #f01818;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+}
+a:hover{
+    border:solid #f01818;
+    color: #f01818;
+    background-color: white;
+}
+
+@keyframes cargando {
+    
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(160deg) ;
+    }
+}
