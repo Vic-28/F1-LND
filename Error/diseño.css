@@ -15,6 +15,7 @@ h1{
     position: absolute;
     left: 30%;
     animation-duration: 30s;
+    filter: invert(10%);
     animation-name: cargando;
     animation-iteration-count:infinite;
     animation-direction:normal;

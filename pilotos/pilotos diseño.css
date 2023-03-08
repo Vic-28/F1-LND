@@ -34,9 +34,9 @@ header *{
 }
 .menu li{
   float: left;
-width:auto;
+  width:auto;
   margin: 0;
-padding-left: 10px;
+  padding-left: 10px;
   padding-right: 10px;
   overflow: hidden;
   border-left:solid ;
